@@ -4,7 +4,7 @@ This app is composed of an ASP.NET Core (.NET 8) back end, and an Angular 19 fro
 
 The objective of this very simple app is to showcase clean architecture principles.
 
-The aim of clean architecture is to decouple the application's core logic from the services it uses. This is achieved by having the dependencies flow from services and infrastructure to the domain. The domain is thus isolated from services and infrastructure; services and infrastructure can even be swapped out, with no impact to the domain.
+The aim of clean architecture is to decouple the application's core logic from the services it uses. This is achieved by having the dependencies flow from infrastructure to services and from services to the domain. The domain is thus isolated from services and infrastructure; infrastructure can even be swapped out, with no impact to services and the domain.
 
 ## Class library structure
 
